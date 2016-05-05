@@ -12,6 +12,7 @@
 		FAB0CE4E1CA9BF6F006768E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CE4C1CA9BF6F006768E4 /* Main.storyboard */; };
 		FAB0CE501CA9BF6F006768E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CE4F1CA9BF6F006768E4 /* Assets.xcassets */; };
 		FAB0CE531CA9BF6F006768E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CE511CA9BF6F006768E4 /* LaunchScreen.storyboard */; };
+		FAB0CE5B1CA9BF8A006768E4 /* beethoven-67-1-pfaul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CE5A1CA9BF8A006768E4 /* beethoven-67-1-pfaul.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FAB0CE4F1CA9BF6F006768E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB0CE521CA9BF6F006768E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB0CE541CA9BF6F006768E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0CE5A1CA9BF8A006768E4 /* beethoven-67-1-pfaul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beethoven-67-1-pfaul.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FAB0CE481CA9BF6F006768E4 /* AppDelegate.swift */,
 				FAB0CE4A1CA9BF6F006768E4 /* ViewController.swift */,
+				FAB0CE5A1CA9BF8A006768E4 /* beethoven-67-1-pfaul.mp3 */,
 				FAB0CE4C1CA9BF6F006768E4 /* Main.storyboard */,
 				FAB0CE4F1CA9BF6F006768E4 /* Assets.xcassets */,
 				FAB0CE511CA9BF6F006768E4 /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 				FAB0CE531CA9BF6F006768E4 /* LaunchScreen.storyboard in Resources */,
 				FAB0CE501CA9BF6F006768E4 /* Assets.xcassets in Resources */,
 				FAB0CE4E1CA9BF6F006768E4 /* Main.storyboard in Resources */,
+				FAB0CE5B1CA9BF8A006768E4 /* beethoven-67-1-pfaul.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

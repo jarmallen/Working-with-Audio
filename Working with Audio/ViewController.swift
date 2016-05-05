@@ -7,18 +7,53 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var slider: UISlider!
+    
+    var player: AVAudioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let audioFilePath = NSBundle.mainBundle().pathForResource("beethoven-67-1-pfaul", ofType: ".mp3")!
+        
+        do {
+            
+            try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioFilePath))
+
+            
+        } catch {
+            
+            // Process error here
+            
+        }
+
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func play(sender: AnyObject) {
+        
+         player.play()
+        
     }
+    
+    
+    @IBAction func pause(sender: AnyObject) {
+        
+        player.pause()
+
+    }
+    
+    
+    @IBAction func adjustVolume(sender: AnyObject) {
+        
+        player.volume = slider.value
+        
+    }
+   
 
 
 }
